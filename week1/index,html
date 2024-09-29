@@ -3,9 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Google</title>
 </head>
 <body>
-
+    <header>
+        <ul>
+            <li><a href="/about">About</a></li>
+            <li><a href="/store">Store</a></li>
+        </ul>
+        <ul>
+            <li><a href="#">Gmail</a></li>
+            <li><a href="#">Images</a></li>
+            <li><a href="#">Apps</a></li>
+            <li><a href="#">Profile</a></li>
+        </ul>
+    </header>
 </body>
 </html>
