@@ -11,15 +11,20 @@ https://www.reddit.com/r/StarWars/comments/1ftwo88/older_star_wars_fans_who_saw_
 ### 1a
 
 5 block elements:
-<div slot="credit-bar"class= "flex justify-between text-12 pt-md pb-2xs px-md relative xs:px-0"><div>
+<div slot="credit-bar"class= "flex justify-between text-12 pt-md pb-2xs px-md relative xs:px-0"><div>；
+/*1*/
+      
+<div class="text-neutral-content"slot="text-body"></div>；
+/*2*/
 
-<div class="text-neutral-content"slot="text-body"></div>
-
-<div class= relative overflow-hidden pointer-cursor mb-xs isolate bg-neutral-background xs:rounded- [16px]slot="post-media-container" ></div>
+<div class= relative overflow-hidden pointer-cursor mb-xs isolate bg-neutral-background xs:rounded- [16px]slot="post-media-container" ></div>；
+/*3*/
 
 <div id= "comment-tree-content-anchor-lftwo88"></div>
+/*4*/
 
 <div id="right sidebar container" data scroll-restore class="right-sidebar w-full xs:w-[316px] xs:min-w[316px] block styled scrollbars xs:sticky xs: top-[56px] xs:max h-[calc (100vh-var(-shreddit header height)-lpx)] xs:overflow y auto xs:overflow-x-hidden">.</div>
+/*5*/
 
 
 ```
