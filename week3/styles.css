@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: space-between;
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+    color: #5f6368;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-nav, .right-nav {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.right-nav li {
+    display: flex;
+    align-items: center;
+}
+
+.right-nav img {
+    width: 24px;
+    height: 24px;
+}
+
+.profile {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.logo {
+    width: 272px;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+input[type="text"] {
+    width: 500px;
+    padding: 14px;
+    border-radius: 50px;
+    border: 1px solid #dadce0;
+    font-size: 16px;
+    margin-bottom: 30px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    outline: none;
+}
+
+input[type="text"]:focus {
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.button-container {
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    border: 1px solid #f8f9fa;
+    background-color: #f8f9fa;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #e0e0e0;
+}
+
+footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
