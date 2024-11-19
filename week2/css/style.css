@@ -1,0 +1,15 @@
+html {
+    font-family:Arial,sans-serif;
+    /*htme tag selector*/
+}
+body {
+    background-color: #1c87c9;
+}
+p{
+    color:purple;
+}
+.middle-p {
+    color: red;
+    text-align:center;
+    text-decoration:underline;
+}
